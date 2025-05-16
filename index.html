@@ -26,18 +26,18 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            <a class="nav-link active text-white cursor-pointer" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Link</a>
+            <a class="nav-link text-white cursor-pointer" href="#">Link</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled text-secondary" tabindex="-1" href="#" aria-disabled="true">Disabled</a>
+            <a class="nav-link  text-secondary" tabindex="-1" href="#" aria-disabled="true" style="cursor: not-allowed">Disabled</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input type="search" class="form-control me-2" placeholder="search" aria-label="search">
-          <button class="btn btn-outline-success ">Search</button>
+          <input type="search" class="form-control me-2 cursor-pointer" placeholder="search" aria-label="search">
+          <button class="btn btn-outline-success cursor-pointer">Search</button>
         </form>
       </div>
 
@@ -97,13 +97,13 @@
             dolorum perferendis, doloribus accusantium iure minima explicabo ipsa inventore, soluta aliquam ad non saepe
             neque incidunt.</p>
         </div>
-        <div class="card-footer bg-white d-flex justify-content-between align-items-center px-3">
-          <div>
+        <div class="card-footer border-0 bg-white d-flex justify-content-between align-items-center px-3">
+          <div class="btn-group" role="group" aria-label="Basic example">
             <button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal"
               data-bs-target="#openModal">View</button>
-            <button class="btn btn-outline-secondary btn-sm disabled" aria-disabled="true" tabindex="-1">Edit</button>
+            <button class="btn btn-outline-secondary btn-sm">Edit</button>
           </div>
-          <p class="bg-secondary text-white rounded-pill px-2  btn-sm">9mins</p>
+          <p class="badge bg-secondary rounded-pill my-auto">9mins</p>
         </div>
       </div>
     </div>
@@ -118,13 +118,13 @@
             dolorum perferendis, doloribus accusantium iure minima explicabo ipsa inventore, soluta aliquam ad non saepe
             neque incidunt.</p>
         </div>
-        <div class="card-footer bg-white d-flex justify-content-between align-items-center px-3">
-          <div>
+        <div class="card-footer border-0 bg-white d-flex justify-content-between align-items-center px-3">
+          <div class="btn-group" role="group" aria-label="Basic example">
             <button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal"
               data-bs-target="#openModal">View</button>
-            <button class="btn btn-outline-secondary btn-sm disabled" aria-disabled="true" tabindex="-1">Edit</button>
+            <button class="btn btn-outline-secondary btn-sm " >Edit</button>
           </div>
-          <p class="bg-secondary text-white rounded-pill px-2  btn-sm">9mins</p>
+           <span class="badge bg-secondary rounded-pill ">9mins</span>
         </div>
       </div>
     </div>
@@ -139,13 +139,13 @@
             dolorum perferendis, doloribus accusantium iure minima explicabo ipsa inventore, soluta aliquam ad non saepe
             neque incidunt.</p>
         </div>
-        <div class="card-footer bg-white d-flex justify-content-between align-items-center px-3">
-          <div>
-            <button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal"
+        <div class="card-footer border-0 bg-white d-flex justify-content-between align-items-center px-3">
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button class="btn btn-outline-secondary btn-sm "  data-bs-toggle="modal"
               data-bs-target="#openModal">View</button>
-            <button class="btn btn-outline-secondary btn-sm disabled" aria-disabled="true" tabindex="-1">Edit</button>
+            <button class="btn btn-outline-secondary btn-sm">Edit</button>
           </div>
-          <p class="bg-secondary text-white rounded-pill px-2  btn-sm">9mins</p>
+          <span class="badge bg-secondary rounded-pill ">9mins</span>
         </div>
       </div>
     </div>
@@ -214,6 +214,12 @@
 
   </div>
 
+  <footer class="w-75 my-3 mx-auto d-flex justify-content-between align-items-center">
+    <div>
+      <p>@ 2017-2018 company,inc. · <a class="text-primary pl-2 cursor-pointer text-decoration-none" href="#">Privacy</a> · <a class="cursor-pointer text-primary pl-2 text-decoration-none" href="#">Terms</a></p>
+    </div>
+    <a class="text-primary cursor-pointer text-decoration-none" href="#">Back to Top</a>
+  </footer>
 </body>
 
 </html>
